@@ -6,7 +6,7 @@ import json
 
 load_dotenv()
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "https://campus-event-hub-gmzc.onrender.com/"
 
 st.set_page_config(
     page_title="Campus Event Hub",
