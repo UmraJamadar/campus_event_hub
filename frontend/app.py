@@ -653,7 +653,7 @@ elif page == "📝 Sign Up":
         name = st.text_input("Full Name")
         email = st.text_input("Email Address")
         college = st.selectbox("College", ["MIT", "IIT", "NIT", "BITS", "VIT", "Other"])
-        year = st.selectbox("Year", [1, 2, 3, 4])
+        year = int(st.selectbox("Year", [1, 2, 3, 4]))
         branch = st.selectbox("Branch", ["CSE", "ECE", "Mechanical", "Civil", "Other"])
         password = st.text_input("Password", type="password")
         confirm_password = st.text_input("Confirm Password", type="password")
