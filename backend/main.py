@@ -35,7 +35,7 @@ class RegisterRequest(BaseModel):
     email: str
     password: str
     college: str
-    year: str
+    year: int
     branch: str
     role: str = "student"
 
